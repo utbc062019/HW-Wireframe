@@ -5,13 +5,13 @@ body {
     background-color: #777;
     width: 960px;
     text-align: center;
-    margin: auto
+    margin-left: 15%
      }
 article {
   color: #ebebeb;
   background-color: #777;
-  margin-left: 5px;
-  margin-right: 5px;
+  /*margin-left: 5px;
+  margin-right: 5px;*/
   padding: 15px
   }
 h3,p {
@@ -21,7 +21,7 @@ h3,p {
   margin: 5px;
 }
 section {
-  width: 495px;
+  width: 55%;
   float: left;
   margin-right: 5px;
   padding: 20px;
@@ -30,10 +30,17 @@ section {
 .a {background: #ebebeb}
 header, nav, footer {
   padding: 25px;
-  margin: 5px
-}
+  margin: 10px
+  }
 aside {
    padding: 20px;
+   width: 35%;
+   float: left;
+   height: 190px
 }
-section, aside {display: inline-block}
 footer {clear: both}
+/*div::after {
+  content: "";
+  display: block;
+  clear: both;
+}*/
