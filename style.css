@@ -30,11 +30,11 @@ section {
 .a {background: #ebebeb}
 header, nav, footer {
   padding: 25px;
-  margin: 10px
+  margin-bottom: 10px
   }
 aside {
    padding: 20px;
-   width: 35%;
+   width: 36%;
    float: left;
    height: 190px
 }
