@@ -10,9 +10,7 @@ body {
 article {
   color: #ebebeb;
   background-color: #777;
-  /*margin-left: 5px;
-  margin-right: 5px;*/
-  padding: 15px
+    padding: 15px
   }
 h3,p {
   color: #777;
@@ -21,7 +19,7 @@ h3,p {
   margin: 5px;
 }
 section {
-  width: 55%;
+  width: 495px;
   float: left;
   margin-right: 5px;
   padding: 20px;
@@ -34,13 +32,8 @@ header, nav, footer {
   }
 aside {
    padding: 20px;
-   width: 36%;
+   width: 380px;
    float: left;
-   height: 190px
+   height: 192px
 }
 footer {clear: both}
-/*div::after {
-  content: "";
-  display: block;
-  clear: both;
-}*/
